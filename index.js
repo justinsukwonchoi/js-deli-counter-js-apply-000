@@ -37,3 +37,22 @@ function currentLine(katzDeliLine) {
     return `The line is currently: ${result2}`
   }
 }
+
+var counter = 0;
+
+function takeANumber(line) {
+  counter ++ 
+  var next = line[line.length - 1] + 1
+  
+  line.push(current + 1)
+  
+  if (line.length === 0) {
+    return 'The line is empty'
+  else
+    
+  }
+  
+  return `You are person ${line[line.length-1]} in line.`
+  
+  
+}
